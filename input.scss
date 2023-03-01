@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+$gray: rgb(126, 123, 123);
+@mixin button($border, $px, $py){
+    border: 1px solid $border;
+    padding: $px $py;
+    text-decoration: none;
+    color: $text\;
+}
